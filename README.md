@@ -66,7 +66,7 @@ This will initialize a tsconfig.json file that will determine how your compiling
 
 Inside tsconfig.json we are going to set this commands in the following way:
 ```json
-// "outDir": "./",
+"outDir": "./"
 we need to uncomment this and turn it into
 "outDir": "./comp"
 ```
