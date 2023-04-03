@@ -34,10 +34,11 @@ npm install nodemon -D
 We are gonna create an Express instance in a .ts file, this way:
 
 ```ts
-import express { Express, Request, Response} from 'express'
+import express { Express, Request, Response } from 'express'
 
 const app: Express = express();
 ```
+-The Request and Response types are for when we decide to build routes using the callback function (req, res) parameters-
 #
 ## .Then
 We could declare the port we are gonna use, it can be done like this:
